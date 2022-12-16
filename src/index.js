@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Welcome from './Welcome';
+import Video from './Video';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Welcome />,
   },
+  {
+    path: '/video',
+    element: <Video />
+  }
 ]);
 
 

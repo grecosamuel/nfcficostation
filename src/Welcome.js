@@ -1,7 +1,11 @@
 import { Box, Typography } from "@mui/material";
 import { TypeAnimation } from 'react-type-animation';
-import React from 'react';
+import React, {  useState } from 'react';
+import Video from "./Video";
 export default function Welcome(){
+
+    const [displayVideo, setDispalyVideo] = useState('none');
+
     return(
         <Box height='100vh' display='flex' flexDirection='column' justifyContent={'space-evenly'}>
             <Box border='2px solid red'>
@@ -21,8 +25,14 @@ export default function Welcome(){
             </Box>
 
             <Box  border='2px solid green' display={'flex'} justifyContent={'center'}>
-                <img src='/ficostation_logo_train.png'  width={128} height={128} alt="TRAIN"/>
+                <img src='/ficostation_logo_train.png'  width={128} height={128} alt="TRAIN" onClick={(e) => {
+                    window.history.pushState('test', null)
+                    setDispalyVideo('block');
+                    document.getElementById('videoIntro').play();
+            }}/>
             </Box>
+            <Video display={displayVideo} setDisplay={setDispalyVideo}/>
         </Box>
+
     );
 }
