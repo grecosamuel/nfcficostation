@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { TypeAnimation } from 'react-type-animation';
+import Targhetta from "./components/Targhetta";
 import React, {  useState } from 'react';
 import Video from "./Video";
 export default function Welcome(){
@@ -8,9 +9,9 @@ export default function Welcome(){
 
     return(
         <Box height='100vh' display='flex' flexDirection='column' justifyContent={'space-evenly'}>
-            <Box border='2px solid red'>
-                <img src='/targhetta.png' width='100%' alt="FICOSTATION"/>
-            </Box>
+
+            <Targhetta />
+            
 
             <Box border='2px solid green'>
                 <Typography variant="h4" textAlign='center' fontFamily={'Bright Young'}>
