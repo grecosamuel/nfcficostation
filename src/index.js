@@ -13,13 +13,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
          <HashRouter>
-            <Route 
-              path='/'
+            <Route
+              exact
+              path='/nfcficostation'
               element={<Welcome />}
             />
             <Route
-
-              path='/list'
+              exact
+              path='/nfcficostation/list'
               element={<List />}
             />
          </HashRouter>
