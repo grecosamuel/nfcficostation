@@ -9,17 +9,7 @@ import {
   Route
 } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: '/nfcficostation/list',
-    element: <List />
-  },
-  {
-    path: "/nfcficostation",
-    element: <Welcome />,
-  },
-  
-]);
+
 
 
 
