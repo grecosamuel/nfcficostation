@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Welcome from './Welcome';
-import Video from './Video';
 import List from './List';
 import {
   createBrowserRouter,
@@ -15,7 +14,7 @@ const router = createBrowserRouter([
     element: <Welcome />,
   },
   {
-    path: '/list',
+    path: '/nfcficostation/list',
     element: <List />
   }
 ]);
