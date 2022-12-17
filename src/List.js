@@ -56,7 +56,7 @@ export default function List(){
     ]
 
     return(
-        <Box height='100vh' display='flex' flexDirection='column' justifyContent={'flex-start'}>
+        <Box height='100vh' display='flex' flexDirection='column' justifyContent={'flex-start'} backgroundColor='#21201f'>
             <Targhetta />
 
             <Box overflow={'scroll'} marginBottom={5}>
@@ -67,7 +67,14 @@ export default function List(){
                                 onClick={(e) => {
                                     window.open(card.href, '_blank')
                                 }}
-                                sx={{ display: 'flex', justifyContent: 'space-between', margin: 4, border: '2px solid green' }}>
+                                sx={{ 
+                                    display: 'flex', 
+                                    justifyContent: 'space-between', 
+                                    margin: 4, 
+                                    backgroundColor: '#eb4034',
+                                    color: '#fff',
+                                    borderRadius: 2
+                                    }}>
                                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                                     <CardContent sx={{ flex: '1 0 auto'}}>
                                         <Typography component="div" variant="h5" fontSize={24} fontFamily={'Bright Young'}>
