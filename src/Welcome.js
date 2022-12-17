@@ -4,7 +4,6 @@ import Targhetta from "./components/Targhetta";
 import React, {  useState } from 'react';
 import Video from "./Video";
 
-import List from "./List";
 export default function Welcome(){
 
     const [displayVideo, setDispalyVideo] = useState('none');
