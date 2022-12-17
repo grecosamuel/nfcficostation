@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <Welcome />,
   },
   {
-    path: '/nfcficostation/list',
+    path: '/list',
     element: <List />
   }
 ]);
