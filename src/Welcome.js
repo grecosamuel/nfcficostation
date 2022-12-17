@@ -28,7 +28,7 @@ export default function Welcome(){
 
             <Box display={'flex'} justifyContent={'center'}>
                 
-                <img src='/ficostation_logo_train.png'  width={128} height={128} alt="TRAIN" onClick={(e) => {
+                <img src='/nfcficostation/ficostation_logo_train.png'  width={128} height={128} alt="TRAIN" onClick={(e) => {
                     window.history.pushState('test', null)
                     setDispalyVideo('block');
                     document.getElementById('videoIntro').play();

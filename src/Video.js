@@ -38,7 +38,7 @@ export default function Video({ display, setDisplay }){
                 window.location.href = '/nfcficostation/list'
             }}>Salta</Typography></Button>
             <video id="videoIntro" controls className="videoIntro" width={'100%'}  ref={videoRef} onPlay={handlePlay} onEnded={handleEnd}>
-                <source src="/nfcficostation//introvideo.mp4" type="video/mp4"/>
+                <source src="/nfcficostation/introvideo.mp4" type="video/mp4"/>
             </video>
         </Box>
     );
