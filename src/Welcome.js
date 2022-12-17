@@ -3,11 +3,14 @@ import { TypeAnimation } from 'react-type-animation';
 import Targhetta from "./components/Targhetta";
 import React, {  useState } from 'react';
 import Video from "./Video";
+
+import List from "./List";
 export default function Welcome(){
 
     const [displayVideo, setDispalyVideo] = useState('none');
 
     return(
+
         <Box height='100vh' display='flex' flexDirection='column' justifyContent={'space-evenly'} backgroundColor='#21201f'>
 
             <Targhetta />
