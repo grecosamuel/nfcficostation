@@ -29,13 +29,13 @@ export default function Video({ display, setDisplay }){
 
     const handleEnd = () => {
         setDisplay('none')
-        window.location.href = '/nfcficostation/list'
+        window.location.href = '/nfcficostation/#/list'
     }
 
     return(
         <Box  width='100vw' height='100vh' position='absolute' display={display}>
             <Button position='absolute'><Typography fontFamily={'Bright Young'} color={'#e62e1f'} onClick={(e) => {
-                window.location.href = '/nfcficostation/list'
+                window.location.href = '/nfcficostation/#/list'
             }}>Salta</Typography></Button>
             <video id="videoIntro" controls className="videoIntro" width={'100%'}  ref={videoRef} onPlay={handlePlay} onEnded={handleEnd}>
                 <source src="/nfcficostation/introvideo.mp4" type="video/mp4"/>
