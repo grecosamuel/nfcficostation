@@ -4,20 +4,21 @@ import './index.css';
 import Welcome from './Welcome';
 import List from './List';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: '/nfcficostation/list',
-    element: <List />
-  },
-  {
-    path: "/nfcficostation",
+    path: "nfcficostation",
     element: <Welcome />,
-  },
-  
+    children: [
+      {
+        path: 'list',
+        element: <List />
+      }
+    ]
+  }
 ]);
 
 
