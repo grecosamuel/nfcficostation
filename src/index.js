@@ -15,11 +15,11 @@ const router = createBrowserRouter([
     element: <Welcome />,
   },
   {
-    path: '/video',
+    path: '/nfcficostation/video',
     element: <Video />
   },
   {
-    path: '/list',
+    path: '/nfcficostation/list',
     element: <List />
   }
 ]);

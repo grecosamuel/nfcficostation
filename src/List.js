@@ -12,42 +12,42 @@ export default function List(){
     const cards = [
         {
             title: 'Salva numero',
-            icon: '/smartphone.svg',
+            icon: '/nfcficostation/smartphone.svg',
             href: 'tel:+393899568659'
         },
         {
             title: 'Whatsapp',
-            icon: '/whatsapp.svg',
+            icon: '/nfcficostation/whatsapp.svg',
             href: 'https://wa.me/+393899568659'
         },
         {
             title: 'Drink List',
-            icon: '/drink.svg',
+            icon: '/nfcficostation/drink.svg',
             href: 'https://ficostation.it/wp-content/uploads/2022/11/Drink-List.pdf'
         },
         {
             title: 'Food',
-            icon: '/restaurant-cutlery.svg',
+            icon: '/nfcficostation/restaurant-cutlery.svg',
             href: 'https://ficostation.it/wp-content/uploads/2022/11/Menu-Food.pdf'
         },
         {
             title: 'Wine',
-            icon: '/wine-glass.svg',
+            icon: '/nfcficostation/wine-glass.svg',
             href: 'https://ficostation.it/wp-content/uploads/2022/11/Wine.pdf'
         },
         {
             title: 'Aperitive',
-            icon: '/food.svg',
+            icon: '/nfcficostation/food.svg',
             href: 'https://ficostation.it/wp-content/uploads/2022/11/Aperitivi.pdf'
         },
         {
             title: 'Instagram',
-            icon: '/instagram.svg',
+            icon: '/nfcficostation/instagram.svg',
             href: 'https://instagram.com/ficostation'
         },
         {
             title: 'Website',
-            icon: '/website.svg',
+            icon: '/nfcficostation/website.svg',
             href: 'https://ficostation.it'
         },
 

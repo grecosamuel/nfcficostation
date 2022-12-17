@@ -5,8 +5,8 @@ import {
 export default function Targhetta(){
     return (
         <Box>
-                <img src='/targhetta.png' width='100%' alt="FICOSTATION" onClick={(e) => {
-                    window.location.href = '/'
+                <img src='/nfcficostation/targhetta.png' width='100%' alt="FICOSTATION" onClick={(e) => {
+                    window.location.href = '/nfcficostation'
                 }}/>
             </Box>
     );
