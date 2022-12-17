@@ -10,13 +10,14 @@ import {
 
 const router = createBrowserRouter([
   {
+    path: '/nfcficostation/list',
+    element: <List />
+  },
+  {
     path: "/nfcficostation",
     element: <Welcome />,
   },
-  {
-    path: '/nfcficostation/list',
-    element: <List />
-  }
+  
 ]);
 
 
