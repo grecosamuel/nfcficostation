@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nfcficostation/precache-manifest.7f668c14bc350d5513e4ab993a8b0525.js"
+  "/nfcficostation/precache-manifest.bc9b38e012acea030e39038988d44160.js"
 );
 
 workbox.clientsClaim();
