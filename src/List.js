@@ -13,12 +13,12 @@ export default function List(){
         {
             title: 'Salva numero',
             icon: '/smartphone.svg',
-            href: 'tel:+393664036947'
+            href: 'tel:+393899568659'
         },
         {
             title: 'Whatsapp',
             icon: '/whatsapp.svg',
-            href: 'https://wa.me/3664036947'
+            href: 'https://wa.me/+393899568659'
         },
         {
             title: 'Drink List',
